@@ -40,7 +40,7 @@ global.APIKeys = {
 
 //main
 global.premium = [`${ownernum}`]
-global.sessionName = 'session.alfa'
+global.sessionName = 'session.rathi'
 global.prefa = ['','!','.',',','📍','🍭',]
 global.sp = '🍭'
 global.devname = '𝙲𝙷𝙰𝚁𝙸𝚃𝙷 𝚂𝙴𝙽𝙰𝙽𝙰𝚈𝙰𝙺𝙴 (𝚁𝙰𝚃𝙷𝙸)'
