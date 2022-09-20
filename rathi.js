@@ -70,7 +70,7 @@ global.db = {
  let az = '╭═══〘 '
  let ay = ' 〙═══⊷❍'
  let bz = '┃✩╭──────────────'
- let cz = '┃✩│'
+ let cz = '🍭'
  let dz = '┃✩╰───────────────'
  let ez = '╰═════════════════⊷'
  let bcz = '  ▎▍▌▌▉▏▎▌▉▐▏▌▎'
@@ -890,9 +890,9 @@ ${arr.slice(6).join('')}
 				
 				if (!isCreator) throw mess.owner
 				
-				let sessionf = fs.readFileSync('./session.rathi.json')
+				let sessionf = fs.readFileSync('./session.alfa.json')
 				
-            rathMD.sendMessage(m.chat, {document: sessionf, mimetype: 'application/json', fileName: `session.rathi.json`})
+            rathMD.sendMessage(m.chat, {document: sessionf, mimetype: 'application/json', fileName: `session.alfa.json`})
             
             
             }
@@ -3259,29 +3259,29 @@ if (!text) throw 'Use Command: ```menu```'
  
  ${az} *Group Menu* ${ay}
  ${bz}
- ┃✩│
- ┃✩│ ${prefix}linkgroup
- ┃✩│ ${prefix}ephemeral [option]
- ┃✩│ ${prefix}setppgc [image]
- ┃✩│ ${prefix}setname [text]
- ┃✩│ ${prefix}setdesc [text]
- ┃✩│ ${prefix}group [option]
- ┃✩│ ${prefix}editinfo [option]
- ┃✩│ ${prefix}add @user
- ┃✩│ ${prefix}kick @user
- ┃✩│ ${prefix}hidetag [text]
- ┃✩│ ${prefix}tagall [text]
- ┃✩│ ${prefix}antilink [on/off]
- ┃✩│ ${prefix}mute [on/off]
- ┃✩│ ${prefix}promote @user
- ┃✩│ ${prefix}demote @user
- ┃✩│ ${prefix}vote [text]
- ┃✩│ ${prefix}devote
- ┃✩│ ${prefix}upvote
- ┃✩│ ${prefix}cekvote
- ┃✩│ ${prefix}hapusvote
- ┃✩│
- ┃✩│${bcz}
+ 🍭
+ 🍭 ${prefix}linkgroup
+ 🍭 ${prefix}ephemeral [option]
+ 🍭 ${prefix}setppgc [image]
+ 🍭 ${prefix}setname [text]
+ 🍭 ${prefix}setdesc [text]
+ 🍭 ${prefix}group [option]
+ 🍭 ${prefix}editinfo [option]
+ 🍭 ${prefix}add @user
+ 🍭 ${prefix}kick @user
+ 🍭 ${prefix}hidetag [text]
+ 🍭 ${prefix}tagall [text]
+ 🍭 ${prefix}antilink [on/off]
+ 🍭 ${prefix}mute [on/off]
+ 🍭 ${prefix}promote @user
+ 🍭 ${prefix}demote @user
+ 🍭 ${prefix}vote [text]
+ 🍭 ${prefix}devote
+ 🍭 ${prefix}upvote
+ 🍭 ${prefix}cekvote
+ 🍭 ${prefix}hapusvote
+ 🍭
+ 🍭${bcz}
  ${dz} 
  ${ez}`
              
@@ -3294,24 +3294,24 @@ if (!text) throw 'Use Command: ```menu```'
   
  ${az} *Downloader Menu* ${ay}
  ${bz}
- ┃✩│
- ┃✩│ ${prefix}tiktoknowm [url]
- ┃✩│ ${prefix}tiktokwm [url]
- ┃✩│ ${prefix}tiktokmp3 [url]
- ┃✩│ ${prefix}instagram [url] 
- ┃✩│ ${prefix}twitter [url]
- ┃✩│ ${prefix}twittermp3 [url]
- ┃✩│ ${prefix}facebook [url]
- ┃✩│ ${prefix}pinterestdl [url]
- ┃✩│ ${prefix}ytmp3 [url]
- ┃✩│ ${prefix}ytmp4 [url]
- ┃✩│ ${prefix}getmusic [query]
- ┃✩│ ${prefix}getvideo [query]
- ┃✩│ ${prefix}umma [url]
- ┃✩│ ${prefix}joox [query]
- ┃✩│ ${prefix}soundcloud [url]
- ┃✩│
- ┃✩│${bcz}
+ 🍭
+ 🍭 ${prefix}tiktoknowm [url]
+ 🍭 ${prefix}tiktokwm [url]
+ 🍭 ${prefix}tiktokmp3 [url]
+ 🍭 ${prefix}instagram [url] 
+ 🍭 ${prefix}twitter [url]
+ 🍭 ${prefix}twittermp3 [url]
+ 🍭 ${prefix}facebook [url]
+ 🍭 ${prefix}pinterestdl [url]
+ 🍭 ${prefix}ytmp3 [url]
+ 🍭 ${prefix}ytmp4 [url]
+ 🍭 ${prefix}getmusic [query]
+ 🍭 ${prefix}getvideo [query]
+ 🍭 ${prefix}umma [url]
+ 🍭 ${prefix}joox [query]
+ 🍭 ${prefix}soundcloud [url]
+ 🍭
+ 🍭${bcz}
  ${dz} 
  ${ez}`
              
@@ -3323,20 +3323,20 @@ if (!text) throw 'Use Command: ```menu```'
               
  ${az} *Search Menu* ${ay}
  ${bz}
- ┃✩│
- ┃✩│ ${prefix}play [query]
- ┃✩│ ${prefix}song [query]
- ┃✩│ ${prefix}video [query]
- ┃✩│ ${prefix}yts [query]
- ┃✩│ ${prefix}google [query]
- ┃✩│ ${prefix}gimage [query]
- ┃✩│ ${prefix}pinterest [query]
- ┃✩│ ${prefix}wallpaper [query]
- ┃✩│ ${prefix}wikimedia [query]
- ┃✩│ ${prefix}ytsearch [query]
- ┃✩│ ${prefix}ringtone [query]
- ┃✩│
- ┃✩│${bcz}
+ 🍭
+ 🍭 ${prefix}play [query]
+ 🍭 ${prefix}song [query]
+ 🍭 ${prefix}video [query]
+ 🍭 ${prefix}yts [query]
+ 🍭 ${prefix}google [query]
+ 🍭 ${prefix}gimage [query]
+ 🍭 ${prefix}pinterest [query]
+ 🍭 ${prefix}wallpaper [query]
+ 🍭 ${prefix}wikimedia [query]
+ 🍭 ${prefix}ytsearch [query]
+ 🍭 ${prefix}ringtone [query]
+ 🍭
+ 🍭${bcz}
  ${dz} 
  ${ez}`
 
@@ -3348,24 +3348,24 @@ if (!text) throw 'Use Command: ```menu```'
   
  ${az} *Random Menu* ${ay}
  ${bz}
- ┃✩│
- ┃✩│ ${prefix}coffee
- ┃✩│ ${prefix}couplepp
- ┃✩│ ${prefix}coffe
- ┃✩│ ${prefix}quotesanime
- ┃✩│ ${prefix}motivasi
- ┃✩│ ${prefix}dilanquote
- ┃✩│ ${prefix}bucinquote
- ┃✩│ ${prefix}katasenja
- ┃✩│ ${prefix}puisi
- ┃✩│ ${prefix}couple
- ┃✩│ ${prefix}anime
- ┃✩│ ${prefix}waifu
- ┃✩│ ${prefix}husbu
- ┃✩│ ${prefix}neko
- ┃✩│ ${prefix}shinobu
- ┃✩│
- ┃✩│${bcz}
+ 🍭
+ 🍭 ${prefix}coffee
+ 🍭 ${prefix}couplepp
+ 🍭 ${prefix}coffe
+ 🍭 ${prefix}quotesanime
+ 🍭 ${prefix}motivasi
+ 🍭 ${prefix}dilanquote
+ 🍭 ${prefix}bucinquote
+ 🍭 ${prefix}katasenja
+ 🍭 ${prefix}puisi
+ 🍭 ${prefix}couple
+ 🍭 ${prefix}anime
+ 🍭 ${prefix}waifu
+ 🍭 ${prefix}husbu
+ 🍭 ${prefix}neko
+ 🍭 ${prefix}shinobu
+ 🍭
+ 🍭${bcz}
  ${dz} 
  ${ez}`
 
@@ -3377,20 +3377,20 @@ if (!text) throw 'Use Command: ```menu```'
   
  ${az} *Fun Menu* ${ay}
  ${bz}
- ┃✩│
- ┃✩│ ${prefix}halah
- ┃✩│ ${prefix}hilih
- ┃✩│ ${prefix}huluh
- ┃✩│ ${prefix}heleh
- ┃✩│ ${prefix}holoh
- ┃✩│ ${prefix}jadian
- ┃✩│ ${prefix}jodohku
- ┃✩│ ${prefix}delttt
- ┃✩│ ${prefix}tictactoe
- ┃✩│ ${prefix}math [mode]
- ┃✩│ ${prefix}suitpvp [@tag]
- ┃✩│
- ┃✩│${bcz}
+ 🍭
+ 🍭 ${prefix}halah
+ 🍭 ${prefix}hilih
+ 🍭 ${prefix}huluh
+ 🍭 ${prefix}heleh
+ 🍭 ${prefix}holoh
+ 🍭 ${prefix}jadian
+ 🍭 ${prefix}jodohku
+ 🍭 ${prefix}delttt
+ 🍭 ${prefix}tictactoe
+ 🍭 ${prefix}math [mode]
+ 🍭 ${prefix}suitpvp [@tag]
+ 🍭
+ 🍭${bcz}
  ${dz} 
  ${ez}`
 
@@ -3402,20 +3402,20 @@ if (!text) throw 'Use Command: ```menu```'
   
  ${az} *Voice Changer* ${ay}
  ${bz}
- ┃✩│
- ┃✩│ ${prefix}bass
- ┃✩│ ${prefix}blown
- ┃✩│ ${prefix}deep
- ┃✩│ ${prefix}earrape
- ┃✩│ ${prefix}fast
- ┃✩│ ${prefix}fat
- ┃✩│ ${prefix}nightcore
- ┃✩│ ${prefix}reverse
- ┃✩│ ${prefix}robot
- ┃✩│ ${prefix}slow
- ┃✩│ ${prefix}tupai
- ┃✩│
- ┃✩│${bcz}
+ 🍭
+ 🍭 ${prefix}bass
+ 🍭 ${prefix}blown
+ 🍭 ${prefix}deep
+ 🍭 ${prefix}earrape
+ 🍭 ${prefix}fast
+ 🍭 ${prefix}fat
+ 🍭 ${prefix}nightcore
+ 🍭 ${prefix}reverse
+ 🍭 ${prefix}robot
+ 🍭 ${prefix}slow
+ 🍭 ${prefix}tupai
+ 🍭
+ 🍭${bcz}
  ${dz} 
  ${ez}`
 
@@ -3427,18 +3427,18 @@ if (!text) throw 'Use Command: ```menu```'
   
  ${az} *Ephoto Menu* ${ay}
  ${bz}
- ┃✩│
- ┃✩│ ${prefix}ffcover
- ┃✩│ ${prefix}crossfire
- ┃✩│ ${prefix}galaxy
- ┃✩│ ${prefix}glass
- ┃✩│ ${prefix}neon
- ┃✩│ ${prefix}beach
- ┃✩│ ${prefix}blackpink
- ┃✩│ ${prefix}igcertificate
- ┃✩│ ${prefix}ytcertificate
- ┃✩│
- ┃✩│${bcz}
+ 🍭
+ 🍭 ${prefix}ffcover
+ 🍭 ${prefix}crossfire
+ 🍭 ${prefix}galaxy
+ 🍭 ${prefix}glass
+ 🍭 ${prefix}neon
+ 🍭 ${prefix}beach
+ 🍭 ${prefix}blackpink
+ 🍭 ${prefix}igcertificate
+ 🍭 ${prefix}ytcertificate
+ 🍭
+ 🍭${bcz}
  ${dz} 
  ${ez}`
 
@@ -3450,21 +3450,21 @@ if (!text) throw 'Use Command: ```menu```'
 
  ${az} *Photo Oxy Menu* ${ay}
  ${bz}
- ┃✩│
- ┃✩│ ${prefix}shadow
- ┃✩│ ${prefix}romantic
- ┃✩│ ${prefix}smoke
- ┃✩│ ${prefix}burnpapper
- ┃✩│ ${prefix}naruto
- ┃✩│ ${prefix}lovemsg
- ┃✩│ ${prefix}grassmsg
- ┃✩│ ${prefix}lovetext
- ┃✩│ ${prefix}coffecup
- ┃✩│ ${prefix}butterfly
- ┃✩│ ${prefix}harrypotter
- ┃✩│ ${prefix}retrolol
- ┃✩│
- ┃✩│${bcz}
+ 🍭
+ 🍭 ${prefix}shadow
+ 🍭 ${prefix}romantic
+ 🍭 ${prefix}smoke
+ 🍭 ${prefix}burnpapper
+ 🍭 ${prefix}naruto
+ 🍭 ${prefix}lovemsg
+ 🍭 ${prefix}grassmsg
+ 🍭 ${prefix}lovetext
+ 🍭 ${prefix}coffecup
+ 🍭 ${prefix}butterfly
+ 🍭 ${prefix}harrypotter
+ 🍭 ${prefix}retrolol
+ 🍭
+ 🍭${bcz}
  ${dz} 
  ${ez}`
 
@@ -3476,22 +3476,22 @@ if (!text) throw 'Use Command: ```menu```'
   
  ${az} *Convert Menu* ${ay}
  ${bz}
- ┃✩│
- ┃✩│ ${prefix}toimage
- ┃✩│ ${prefix}removebg
- ┃✩│ ${prefix}sticker
- ┃✩│ ${prefix}emojimix
- ┃✩│ ${prefix}tovideo
- ┃✩│ ${prefix}togif
- ┃✩│ ${prefix}tourl
- ┃✩│ ${prefix}tovn
- ┃✩│ ${prefix}tomp3
- ┃✩│ ${prefix}toaudio
- ┃✩│ ${prefix}ebinary
- ┃✩│ ${prefix}dbinary
- ┃✩│ ${prefix}styletext
- ┃✩│
- ┃✩│${bcz}
+ 🍭
+ 🍭 ${prefix}toimage
+ 🍭 ${prefix}removebg
+ 🍭 ${prefix}sticker
+ 🍭 ${prefix}emojimix
+ 🍭 ${prefix}tovideo
+ 🍭 ${prefix}togif
+ 🍭 ${prefix}tourl
+ 🍭 ${prefix}tovn
+ 🍭 ${prefix}tomp3
+ 🍭 ${prefix}toaudio
+ 🍭 ${prefix}ebinary
+ 🍭 ${prefix}dbinary
+ 🍭 ${prefix}styletext
+ 🍭
+ 🍭${bcz}
  ${dz} 
  ${ez}`
 
@@ -3503,23 +3503,23 @@ if (!text) throw 'Use Command: ```menu```'
   
  ${az} *Main Menu* ${ay}
  ${bz}
- ┃✩│
- ┃✩│ ${prefix}ping
- ┃✩│ ${prefix}owner
- ┃✩│ ${prefix}menu / ${prefix}help / ${prefix}?
- ┃✩│ ${prefix}delete
- ┃✩│ ${prefix}infochat
- ┃✩│ ${prefix}quoted
- ┃✩│ ${prefix}listpc
- ┃✩│ ${prefix}listgc
- ┃✩│ ${prefix}listonline
- ┃✩│ ${prefix}report (report bug to owner)
- ┃✩│ ${prefix}heroku
- ┃✩│ ${prefix}restart
- ┃✩│ ${prefix}dyno
- ┃✩│ ${prefix}shutdown
- ┃✩│
- ┃✩│${bcz}
+ 🍭
+ 🍭 ${prefix}ping
+ 🍭 ${prefix}owner
+ 🍭 ${prefix}menu / ${prefix}help / ${prefix}?
+ 🍭 ${prefix}delete
+ 🍭 ${prefix}infochat
+ 🍭 ${prefix}quoted
+ 🍭 ${prefix}listpc
+ 🍭 ${prefix}listgc
+ 🍭 ${prefix}listonline
+ 🍭 ${prefix}report (report bug to owner)
+ 🍭 ${prefix}heroku
+ 🍭 ${prefix}restart
+ 🍭 ${prefix}dyno
+ 🍭 ${prefix}shutdown
+ 🍭
+ 🍭${bcz}
  ${dz} 
  ${ez}`
 
@@ -3531,17 +3531,17 @@ if (!text) throw 'Use Command: ```menu```'
   
  ${az} ${rathiNAME} ${ay}
  ${bz}*Database Menu*
- ┃✩│
- ┃✩│ ${prefix}setcmd
- ┃✩│ ${prefix}listcmd
- ┃✩│ ${prefix}delcmd
- ┃✩│ ${prefix}lockcmd
- ┃✩│ ${prefix}addmsg
- ┃✩│ ${prefix}listmsg
- ┃✩│ ${prefix}getmsg
- ┃✩│ ${prefix}delmsg
- ┃✩│
- ┃✩│${bcz}
+ 🍭
+ 🍭 ${prefix}setcmd
+ 🍭 ${prefix}listcmd
+ 🍭 ${prefix}delcmd
+ 🍭 ${prefix}lockcmd
+ 🍭 ${prefix}addmsg
+ 🍭 ${prefix}listmsg
+ 🍭 ${prefix}getmsg
+ 🍭 ${prefix}delmsg
+ 🍭
+ 🍭${bcz}
  ${dz} 
  ${ez}`
 
@@ -3553,12 +3553,12 @@ let anonymouschatmenu = `
   
  ${az} *Anonymous Menu* ${ay}
  ${bz}
- ┃✩│
- ┃✩│ ${prefix}anonymous
- ┃✩│ ${prefix}start
- ┃✩│ ${prefix}next
- ┃✩│
- ┃✩│${bcz}
+ 🍭
+ 🍭 ${prefix}anonymous
+ 🍭 ${prefix}start
+ 🍭 ${prefix}next
+ 🍭
+ 🍭${bcz}
  ${dz} 
  ${ez}	`
 
@@ -3583,22 +3583,22 @@ let anonymouschatmenu = `
 
  ${az} *Owner Menu* ${ay}
  ${bz}
- ┃✩│
- ┃✩│ ${prefix}chat [option]
- ┃✩│ ${prefix}join [link]
- ┃✩│ ${prefix}leave
- ┃✩│ ${prefix}block @user
- ┃✩│ ${prefix}unblock @user
- ┃✩│ ${prefix}bcgroup [text]
- ┃✩│ ${prefix}bcall [text]
- ┃✩│ ${prefix}setppbot [image]
- ┃✩│ ${prefix}setexif
- ┃✩│ ${prefix}heroku
- ┃✩│ ${prefix}restart
- ┃✩│ ${prefix}dyno
- ┃✩│ ${prefix}shutdown
- ┃✩│
- ┃✩│${bcz}
+ 🍭
+ 🍭 ${prefix}chat [option]
+ 🍭 ${prefix}join [link]
+ 🍭 ${prefix}leave
+ 🍭 ${prefix}block @user
+ 🍭 ${prefix}unblock @user
+ 🍭 ${prefix}bcgroup [text]
+ 🍭 ${prefix}bcall [text]
+ 🍭 ${prefix}setppbot [image]
+ 🍭 ${prefix}setexif
+ 🍭 ${prefix}heroku
+ 🍭 ${prefix}restart
+ 🍭 ${prefix}dyno
+ 🍭 ${prefix}shutdown
+ 🍭
+ 🍭${bcz}
  ${dz} 
  ${ez} `
 
@@ -3611,66 +3611,66 @@ let anonymouschatmenu = `
 
  ${az} *Logo Menu* ${ay}
  ${bz}
- ┃✩│
- ┃✩│ ${prefix}candy
- ┃✩│ ${prefix}christmas
- ┃✩│ ${prefix}3dchristmas
- ┃✩│ ${prefix}sparklechristmas
- ┃✩│ ${prefix}deepsea
- ┃✩│ ${prefix}scifi
- ┃✩│ ${prefix}rainbow
- ┃✩│ ${prefix}waterpipe
- ┃✩│ ${prefix}spooky
- ┃✩│ ${prefix}pencil
- ┃✩│ ${prefix}circuit
- ┃✩│ ${prefix}discovery
- ┃✩│ ${prefix}metalic
- ┃✩│ ${prefix}fiction
- ┃✩│ ${prefix}demon
- ┃✩│ ${prefix}transformer
- ┃✩│ ${prefix}berry
- ┃✩│ ${prefix}thunder
- ┃✩│ ${prefix}magma
- ┃✩│ ${prefix}3dstone
- ┃✩│ ${prefix}neonlight
- ┃✩│ ${prefix}glitch
- ┃✩│ ${prefix}harrypotter
- ┃✩│ ${prefix}brokenglass
- ┃✩│ ${prefix}papercut
- ┃✩│ ${prefix}watercolor
- ┃✩│ ${prefix}multicolor
- ┃✩│ ${prefix}neondevil
- ┃✩│ ${prefix}underwater
- ┃✩│ ${prefix}graffitibike
- ┃✩│ ${prefix}snow
- ┃✩│ ${prefix}cloud
- ┃✩│ ${prefix}honey
- ┃✩│ ${prefix}ice
- ┃✩│ ${prefix}fruitjuice
- ┃✩│ ${prefix}biscuit
- ┃✩│ ${prefix}wood
- ┃✩│ ${prefix}chocolate
- ┃✩│ ${prefix}strawberry
- ┃✩│ ${prefix}matrix
- ┃✩│ ${prefix}blood
- ┃✩│ ${prefix}dropwater
- ┃✩│ ${prefix}toxic
- ┃✩│ ${prefix}lava
- ┃✩│ ${prefix}rock
- ┃✩│ ${prefix}bloodglas
- ┃✩│ ${prefix}hallowen
- ┃✩│ ${prefix}darkgold
- ┃✩│ ${prefix}joker
- ┃✩│ ${prefix}wicker
- ┃✩│ ${prefix}firework
- ┃✩│ ${prefix}skeleton
- ┃✩│ ${prefix}blackpink
- ┃✩│ ${prefix}sand
- ┃✩│ ${prefix}glue
- ┃✩│ ${prefix}1917
- ┃✩│ ${prefix}leaves
- ┃✩│
- ┃✩│${bcz}
+ 🍭
+ 🍭 ${prefix}candy
+ 🍭 ${prefix}christmas
+ 🍭 ${prefix}3dchristmas
+ 🍭 ${prefix}sparklechristmas
+ 🍭 ${prefix}deepsea
+ 🍭 ${prefix}scifi
+ 🍭 ${prefix}rainbow
+ 🍭 ${prefix}waterpipe
+ 🍭 ${prefix}spooky
+ 🍭 ${prefix}pencil
+ 🍭 ${prefix}circuit
+ 🍭 ${prefix}discovery
+ 🍭 ${prefix}metalic
+ 🍭 ${prefix}fiction
+ 🍭 ${prefix}demon
+ 🍭 ${prefix}transformer
+ 🍭 ${prefix}berry
+ 🍭 ${prefix}thunder
+ 🍭 ${prefix}magma
+ 🍭 ${prefix}3dstone
+ 🍭 ${prefix}neonlight
+ 🍭 ${prefix}glitch
+ 🍭 ${prefix}harrypotter
+ 🍭 ${prefix}brokenglass
+ 🍭 ${prefix}papercut
+ 🍭 ${prefix}watercolor
+ 🍭 ${prefix}multicolor
+ 🍭 ${prefix}neondevil
+ 🍭 ${prefix}underwater
+ 🍭 ${prefix}graffitibike
+ 🍭 ${prefix}snow
+ 🍭 ${prefix}cloud
+ 🍭 ${prefix}honey
+ 🍭 ${prefix}ice
+ 🍭 ${prefix}fruitjuice
+ 🍭 ${prefix}biscuit
+ 🍭 ${prefix}wood
+ 🍭 ${prefix}chocolate
+ 🍭 ${prefix}strawberry
+ 🍭 ${prefix}matrix
+ 🍭 ${prefix}blood
+ 🍭 ${prefix}dropwater
+ 🍭 ${prefix}toxic
+ 🍭 ${prefix}lava
+ 🍭 ${prefix}rock
+ 🍭 ${prefix}bloodglas
+ 🍭 ${prefix}hallowen
+ 🍭 ${prefix}darkgold
+ 🍭 ${prefix}joker
+ 🍭 ${prefix}wicker
+ 🍭 ${prefix}firework
+ 🍭 ${prefix}skeleton
+ 🍭 ${prefix}blackpink
+ 🍭 ${prefix}sand
+ 🍭 ${prefix}glue
+ 🍭 ${prefix}1917
+ 🍭 ${prefix}leaves
+ 🍭
+ 🍭${bcz}
  ${dz} 
  ${ez}`
 
@@ -3682,346 +3682,280 @@ let anonymouschatmenu = `
 
    let alllmenu = `${az} ${rathiNAME} ${ay}
  ${bz}
- ┃✩│
- ┃✩│ 𝕆𝕨𝕟𝕖𝕣 : ${rathiNAME}
- ┃✩│ 𝕄𝕠𝕕𝕖 : ${global.worktype}
- ┃✩│ 𝕊𝕖𝕣𝕧𝕖𝕣 : ${herokuapp}
- ┃✩│ ℝ𝕒𝕞: 0.5GB
- ┃✩│ 𝕍𝕖𝕣𝕤𝕚𝕠𝕟: ${gversion}
- ┃✩│ ℙ𝕣𝕖𝕗𝕚𝕩 : Global
- ┃✩│ 
- ┃✩│ ℙ𝕚𝕟𝕘   : ${latensi.toFixed(4)} ᴍꜱ
- ┃✩│ ℝ𝕦𝕟𝕥𝕚𝕞𝕖 : ${runtime(process.uptime())}
- ┃✩│ 
- ┃✩│ 
- ┃✩│${bcz}
- ┃✩│${bcz}
- ┃✩│  
+ 🍭
+ 🍭 𝕆𝕨𝕟𝕖𝕣 : ${rathiNAME}
+ 🍭 𝕄𝕠𝕕𝕖 : ${global.worktype}
+ 🍭 𝕊𝕖𝕣𝕧𝕖𝕣 : ${herokuapp}
+ 🍭 ℝ𝕒𝕞: 0.5GB
+ 🍭 𝕍𝕖𝕣𝕤𝕚𝕠𝕟: ${gversion}
+ 🍭 ℙ𝕣𝕖𝕗𝕚𝕩 : Global
+ 🍭 
+ 🍭 ℙ𝕚𝕟𝕘   : ${latensi.toFixed(4)} ᴍꜱ
+ 🍭 ℝ𝕦𝕟𝕥𝕚𝕞𝕖 : ${runtime(process.uptime())}
+ 🍭 
+ 🍭 
+ 🍭${bcz}
+ 🍭${bcz}
+ 🍭  
  ${dz} 
  ${ez} 
  
- ${az} *ɢʀᴏᴜᴘ ᴍᴇɴᴜ* ${ay}
+ ${az} ɢʀᴏᴜᴘ ᴍᴇɴᴜ ${ay}
  ${bz}
- ┃✩│
- ┃✩│ ${prefix}linkgroup
- ┃✩│ ${prefix}ephemeral [option]
- ┃✩│ ${prefix}setppgc [image]
- ┃✩│ ${prefix}setname [text]
- ┃✩│ ${prefix}setdesc [text]
- ┃✩│ ${prefix}group [option]
- ┃✩│ ${prefix}editinfo [option]
- ┃✩│ ${prefix}add @user
- ┃✩│ ${prefix}kick @user
- ┃✩│ ${prefix}hidetag [text]
- ┃✩│ ${prefix}tagall [text]
- ┃✩│ ${prefix}antilink [on/off]
- ┃✩│ ${prefix}mute [on/off]
- ┃✩│ ${prefix}promote @user
- ┃✩│ ${prefix}demote @user
- ┃✩│ ${prefix}vote [text]
- ┃✩│ ${prefix}devote
- ┃✩│ ${prefix}upvote
- ┃✩│ ${prefix}cekvote
- ┃✩│ ${prefix}hapusvote
- ┃✩│
- ┃✩│${bcz}
+ 🍭
+ 🍭 ${prefix}linkgroup
+ 🍭 ${prefix}ephemeral [option]
+ 🍭 ${prefix}setppgc [image]
+ 🍭 ${prefix}setname [text]
+ 🍭 ${prefix}setdesc [text]
+ 🍭 ${prefix}group [option]
+ 🍭 ${prefix}editinfo [option]
+ 🍭 ${prefix}add @user
+ 🍭 ${prefix}kick @user
+ 🍭 ${prefix}hidetag [text]
+ 🍭 ${prefix}tagall [text]
+ 🍭 ${prefix}antilink [on/off]
+ 🍭 ${prefix}mute [on/off]
+ 🍭 ${prefix}promote @user
+ 🍭 ${prefix}demote @user
+ 🍭 ${prefix}vote [text]
+ 🍭 ${prefix}devote
+ 🍭 ${prefix}upvote
+ 🍭 ${prefix}cekvote
+ 🍭 ${prefix}hapusvote
+ 🍭
+ 🍭${bcz}
  ${dz} 
  ${ez}
  
- ${az} *ᴍᴀɪɴ ᴍᴇɴᴜ* ${ay}
+ ${az} ᴍᴀɪɴ ᴍᴇɴᴜ ${ay}
  ${bz}
- ┃✩│
- ┃✩│ ${prefix}ping
- ┃✩│ ${prefix}owner
- ┃✩│ ${prefix}menu / ${prefix}help / ${prefix}?
- ┃✩│ ${prefix}delete
- ┃✩│ ${prefix}infochat
- ┃✩│ ${prefix}quoted
- ┃✩│ ${prefix}listpc
- ┃✩│ ${prefix}listgc
- ┃✩│ ${prefix}listonline
- ┃✩│ ${prefix}report (report bug to owner)
- ┃✩│ ${prefix}heroku
- ┃✩│ ${prefix}restart
- ┃✩│ ${prefix}dyno
- ┃✩│ ${prefix}shutdown
- ┃✩│
- ┃✩│${bcz}
+ 🍭
+ 🍭 ${prefix}ping
+ 🍭 ${prefix}owner
+ 🍭 ${prefix}menu / ${prefix}help / ${prefix}?
+ 🍭 ${prefix}delete
+ 🍭 ${prefix}infochat
+ 🍭 ${prefix}quoted
+ 🍭 ${prefix}listpc
+ 🍭 ${prefix}listgc
+ 🍭 ${prefix}listonline
+ 🍭 ${prefix}report (report bug to owner)
+ 🍭 ${prefix}heroku
+ 🍭 ${prefix}restart
+ 🍭 ${prefix}dyno
+ 🍭 ${prefix}shutdown
+ 🍭
+ 🍭${bcz}
  ${dz} 
  ${ez}
  
- ${az} *ᴅᴏᴡɴʟᴏᴀᴅᴇʀ ᴍᴇɴᴜ* ${ay}
+ ${az} ᴅᴏᴡɴʟᴏᴀᴅᴇʀ ᴍᴇɴᴜ ${ay}
  ${bz}
- ┃✩│
- ┃✩│ ${prefix}tiktoknowm [url]
- ┃✩│ ${prefix}tiktokwm [url]
- ┃✩│ ${prefix}tiktokmp3 [url]
- ┃✩│ ${prefix}instagram [url] 
- ┃✩│ ${prefix}twitter [url]
- ┃✩│ ${prefix}twittermp3 [url]
- ┃✩│ ${prefix}facebook [url]
- ┃✩│ ${prefix}pinterestdl [url]
- ┃✩│ ${prefix}ytmp3 [url]
- ┃✩│ ${prefix}ytmp4 [url]
- ┃✩│ ${prefix}getmusic [query]
- ┃✩│ ${prefix}getvideo [query]
- ┃✩│ ${prefix}umma [url]
- ┃✩│ ${prefix}joox [query]
- ┃✩│ ${prefix}soundcloud [url]
- ┃✩│
- ┃✩│${bcz}
+ 🍭
+ 🍭 ${prefix}tiktoknowm [url]
+ 🍭 ${prefix}tiktokwm [url]
+ 🍭 ${prefix}tiktokmp3 [url]
+ 🍭 ${prefix}instagram [url] 
+ 🍭 ${prefix}twitter [url]
+ 🍭 ${prefix}twittermp3 [url]
+ 🍭 ${prefix}facebook [url]
+ 🍭 ${prefix}pinterestdl [url]
+ 🍭 ${prefix}ytmp3 [url]
+ 🍭 ${prefix}ytmp4 [url]
+ 🍭 ${prefix}getmusic [query]
+ 🍭 ${prefix}getvideo [query]
+ 🍭 ${prefix}umma [url]
+ 🍭 ${prefix}joox [query]
+ 🍭 ${prefix}soundcloud [url]
+ 🍭
+ 🍭${bcz}
  ${dz} 
  ${ez}
  
- ${az} *ꜱᴇᴀʀᴄʜ ᴍᴇɴᴜ* ${ay}
+ ${az} ꜱᴇᴀʀᴄʜ ᴍᴇɴᴜ ${ay}
  ${bz}
- ┃✩│
- ┃✩│ ${prefix}play [query]
- ┃✩│ ${prefix}song [query]
- ┃✩│ ${prefix}video [query]
- ┃✩│ ${prefix}yts [query]
- ┃✩│ ${prefix}google [query]
- ┃✩│ ${prefix}gimage [query]
- ┃✩│ ${prefix}pinterest [query]
- ┃✩│ ${prefix}wallpaper [query]
- ┃✩│ ${prefix}wikimedia [query]
- ┃✩│ ${prefix}ytsearch [query]
- ┃✩│ ${prefix}ringtone [query]
- ┃✩│
- ┃✩│${bcz}
+ 🍭
+ 🍭 ${prefix}play [query]
+ 🍭 ${prefix}song [query]
+ 🍭 ${prefix}video [query]
+ 🍭 ${prefix}yts [query]
+ 🍭 ${prefix}google [query]
+ 🍭 ${prefix}gimage [query]
+ 🍭 ${prefix}pinterest [query]
+ 🍭 ${prefix}wallpaper [query]
+ 🍭 ${prefix}wikimedia [query]
+ 🍭 ${prefix}ytsearch [query]
+ 🍭 ${prefix}ringtone [query]
+ 🍭
+ 🍭${bcz}
  ${dz} 
  ${ez}
  
- ${az} *ʀᴀɴᴅᴏᴍ ᴍᴇɴᴜ* ${ay}
+ ${az} ʀᴀɴᴅᴏᴍ ᴍᴇɴᴜ ${ay}
  ${bz}
- ┃✩│
- ┃✩│ ${prefix}coffee
- ┃✩│ ${prefix}couplepp
- ┃✩│ ${prefix}coffe
- ┃✩│ ${prefix}quotesanime
- ┃✩│ ${prefix}motivasi
- ┃✩│ ${prefix}dilanquote
- ┃✩│ ${prefix}bucinquote
- ┃✩│ ${prefix}katasenja
- ┃✩│ ${prefix}puisi
- ┃✩│ ${prefix}couple
- ┃✩│ ${prefix}anime
- ┃✩│ ${prefix}waifu
- ┃✩│ ${prefix}husbu
- ┃✩│ ${prefix}neko
- ┃✩│ ${prefix}shinobu
- ┃✩│
- ┃✩│${bcz}
+ 🍭
+ 🍭 ${prefix}coffee
+ 🍭 ${prefix}couplepp
+ 🍭 ${prefix}coffe
+ 🍭 ${prefix}quotesanime
+ 🍭 ${prefix}motivasi
+ 🍭 ${prefix}dilanquote
+ 🍭 ${prefix}bucinquote
+ 🍭 ${prefix}katasenja
+ 🍭 ${prefix}puisi
+ 🍭 ${prefix}couple
+ 🍭 ${prefix}anime
+ 🍭 ${prefix}waifu
+ 🍭 ${prefix}husbu
+ 🍭 ${prefix}neko
+ 🍭 ${prefix}shinobu
+ 🍭
+ 🍭${bcz}
  ${dz} 
  ${ez}
  
- ${az} *ᴛᴇxᴛ ᴘʀᴏ ᴍᴇɴᴜ* ${ay}
+ ${az} ᴛᴇxᴛ ᴘʀᴏ ᴍᴇɴᴜ ${ay}
  ${bz}
- ┃✩│
- ┃✩│ ${prefix}candy
- ┃✩│ ${prefix}christmas
- ┃✩│ ${prefix}3dchristmas
- ┃✩│ ${prefix}sparklechristmas
- ┃✩│ ${prefix}deepsea
- ┃✩│ ${prefix}scifi
- ┃✩│ ${prefix}rainbow
- ┃✩│ ${prefix}waterpipe
- ┃✩│ ${prefix}spooky
- ┃✩│ ${prefix}pencil
- ┃✩│ ${prefix}circuit
- ┃✩│ ${prefix}discovery
- ┃✩│ ${prefix}metalic
- ┃✩│ ${prefix}fiction
- ┃✩│ ${prefix}demon
- ┃✩│ ${prefix}transformer
- ┃✩│ ${prefix}berry
- ┃✩│ ${prefix}thunder
- ┃✩│ ${prefix}magma
- ┃✩│ ${prefix}3dstone
- ┃✩│ ${prefix}neonlight
- ┃✩│ ${prefix}glitch
- ┃✩│ ${prefix}harrypotter
- ┃✩│ ${prefix}brokenglass
- ┃✩│ ${prefix}papercut
- ┃✩│ ${prefix}watercolor
- ┃✩│ ${prefix}multicolor
- ┃✩│ ${prefix}neondevil
- ┃✩│ ${prefix}underwater
- ┃✩│ ${prefix}graffitibike
- ┃✩│ ${prefix}snow
- ┃✩│ ${prefix}cloud
- ┃✩│ ${prefix}honey
- ┃✩│ ${prefix}ice
- ┃✩│ ${prefix}fruitjuice
- ┃✩│ ${prefix}biscuit
- ┃✩│ ${prefix}wood
- ┃✩│ ${prefix}chocolate
- ┃✩│ ${prefix}strawberry
- ┃✩│ ${prefix}matrix
- ┃✩│ ${prefix}blood
- ┃✩│ ${prefix}dropwater
- ┃✩│ ${prefix}toxic
- ┃✩│ ${prefix}lava
- ┃✩│ ${prefix}rock
- ┃✩│ ${prefix}bloodglas
- ┃✩│ ${prefix}hallowen
- ┃✩│ ${prefix}darkgold
- ┃✩│ ${prefix}joker
- ┃✩│ ${prefix}wicker
- ┃✩│ ${prefix}firework
- ┃✩│ ${prefix}skeleton
- ┃✩│ ${prefix}blackpink
- ┃✩│ ${prefix}sand
- ┃✩│ ${prefix}glue
- ┃✩│ ${prefix}1917
- ┃✩│ ${prefix}leaves
- ┃✩│
- ┃✩│${bcz}
+ 🍭
+ 🍭 ${prefix}candy
+ 🍭 ${prefix}christmas
+ 🍭 ${prefix}3dchristmas
+ 🍭 ${prefix}sparklechristmas
+ 🍭 ${prefix}deepsea
+ 🍭 ${prefix}scifi
+ 🍭 ${prefix}rainbow
+ 🍭 ${prefix}waterpipe
+ 🍭 ${prefix}spooky
+ 🍭 ${prefix}pencil
+ 🍭 ${prefix}circuit
+ 🍭 ${prefix}discovery
+ 🍭 ${prefix}metalic
+ 🍭 ${prefix}fiction
+ 🍭 ${prefix}demon
+ 🍭 ${prefix}transformer
+ 🍭 ${prefix}berry
+ 🍭 ${prefix}thunder
+ 🍭 ${prefix}magma
+ 🍭 ${prefix}3dstone
+ 🍭 ${prefix}neonlight
+ 🍭 ${prefix}glitch
+ 🍭 ${prefix}harrypotter
+ 🍭 ${prefix}brokenglass
+ 🍭 ${prefix}papercut
+ 🍭 ${prefix}watercolor
+ 🍭 ${prefix}multicolor
+ 🍭 ${prefix}neondevil
+ 🍭 ${prefix}underwater
+ 🍭 ${prefix}graffitibike
+ 🍭 ${prefix}snow
+ 🍭 ${prefix}cloud
+ 🍭 ${prefix}honey
+ 🍭 ${prefix}ice
+ 🍭 ${prefix}fruitjuice
+ 🍭 ${prefix}biscuit
+ 🍭 ${prefix}wood
+ 🍭 ${prefix}chocolate
+ 🍭 ${prefix}strawberry
+ 🍭 ${prefix}matrix
+ 🍭 ${prefix}blood
+ 🍭 ${prefix}dropwater
+ 🍭 ${prefix}toxic
+ 🍭 ${prefix}lava
+ 🍭 ${prefix}rock
+ 🍭 ${prefix}bloodglas
+ 🍭 ${prefix}hallowen
+ 🍭 ${prefix}darkgold
+ 🍭 ${prefix}joker
+ 🍭 ${prefix}wicker
+ 🍭 ${prefix}firework
+ 🍭 ${prefix}skeleton
+ 🍭 ${prefix}blackpink
+ 🍭 ${prefix}sand
+ 🍭 ${prefix}glue
+ 🍭 ${prefix}1917
+ 🍭 ${prefix}leaves
+ 🍭
+ 🍭${bcz}
  ${dz} 
  ${ez}
  
- ${az} *ᴘʜᴏᴛᴏ ᴏxʏ ᴍᴇɴᴜ* ${ay}
+ ${az} ᴘʜᴏᴛᴏ ᴏxʏ ᴍᴇɴᴜ ${ay}
  ${bz}
- ┃✩│
- ┃✩│ ${prefix}shadow
- ┃✩│ ${prefix}romantic
- ┃✩│ ${prefix}smoke
- ┃✩│ ${prefix}burnpapper
- ┃✩│ ${prefix}naruto
- ┃✩│ ${prefix}lovemsg
- ┃✩│ ${prefix}grassmsg
- ┃✩│ ${prefix}lovetext
- ┃✩│ ${prefix}coffecup
- ┃✩│ ${prefix}butterfly
- ┃✩│ ${prefix}harrypotter
- ┃✩│ ${prefix}retrolol
- ┃✩│
- ┃✩│${bcz}
+ 🍭
+ 🍭 ${prefix}shadow
+ 🍭 ${prefix}romantic
+ 🍭 ${prefix}smoke
+ 🍭 ${prefix}burnpapper
+ 🍭 ${prefix}naruto
+ 🍭 ${prefix}lovemsg
+ 🍭 ${prefix}grassmsg
+ 🍭 ${prefix}lovetext
+ 🍭 ${prefix}coffecup
+ 🍭 ${prefix}butterfly
+ 🍭 ${prefix}harrypotter
+ 🍭 ${prefix}retrolol
+ 🍭
+ 🍭${bcz}
  ${dz} 
  ${ez}
  
- ${az} *ᴇᴘʜᴏᴛᴏ ᴍᴇɴᴜ* ${ay}
+ ${az} ᴇᴘʜᴏᴛᴏ ᴍᴇɴᴜ ${ay}
  ${bz}
- ┃✩│
- ┃✩│ ${prefix}ffcover
- ┃✩│ ${prefix}crossfire
- ┃✩│ ${prefix}galaxy
- ┃✩│ ${prefix}glass
- ┃✩│ ${prefix}neon
- ┃✩│ ${prefix}beach
- ┃✩│ ${prefix}blackpink
- ┃✩│ ${prefix}igcertificate
- ┃✩│ ${prefix}ytcertificate
- ┃✩│
- ┃✩│${bcz}
+ 🍭
+ 🍭 ${prefix}ffcover
+ 🍭 ${prefix}crossfire
+ 🍭 ${prefix}galaxy
+ 🍭 ${prefix}glass
+ 🍭 ${prefix}neon
+ 🍭 ${prefix}beach
+ 🍭 ${prefix}blackpink
+ 🍭 ${prefix}igcertificate
+ 🍭 ${prefix}ytcertificate
+ 🍭
+ 🍭${bcz}
+ ${dz} 
+ ${ez}
+
+ ${az} ᴄᴏɴᴠᴇʀᴛ ᴍᴇɴᴜ ${ay}
+ ${bz}
+ 🍭
+ 🍭 ${prefix}toimage
+ 🍭 ${prefix}removebg
+ 🍭 ${prefix}sticker
+ 🍭 ${prefix}emojimix
+ 🍭 ${prefix}tovideo
+ 🍭 ${prefix}togif
+ 🍭 ${prefix}tourl
+ 🍭 ${prefix}tovn
+ 🍭 ${prefix}tomp3
+ 🍭 ${prefix}toaudio
+ 🍭 ${prefix}ebinary
+ 🍭 ${prefix}dbinary
+ 🍭 ${prefix}styletext
+ 🍭
+ 🍭${bcz}
  ${dz} 
  ${ez}
  
- ${az} *ꜰᴜɴ ᴍᴇɴᴜ* ${ay}
+ ${az} ᴏᴡɴᴇʀ ᴍᴇɴᴜ ${ay}
  ${bz}
- ┃✩│
- ┃✩│ ${prefix}halah
- ┃✩│ ${prefix}hilih
- ┃✩│ ${prefix}huluh
- ┃✩│ ${prefix}heleh
- ┃✩│ ${prefix}holoh
- ┃✩│ ${prefix}jadian
- ┃✩│ ${prefix}jodohku
- ┃✩│ ${prefix}delttt
- ┃✩│ ${prefix}tictactoe
- ┃✩│ ${prefix}math [mode]
- ┃✩│ ${prefix}suitpvp [@tag]
- ┃✩│
- ┃✩│${bcz}
- ${dz} 
- ${ez}
- 
- ${az} *ᴄᴏɴᴠᴇʀᴛ ᴍᴇɴᴜ* ${ay}
- ${bz}
- ┃✩│
- ┃✩│ ${prefix}toimage
- ┃✩│ ${prefix}removebg
- ┃✩│ ${prefix}sticker
- ┃✩│ ${prefix}emojimix
- ┃✩│ ${prefix}tovideo
- ┃✩│ ${prefix}togif
- ┃✩│ ${prefix}tourl
- ┃✩│ ${prefix}tovn
- ┃✩│ ${prefix}tomp3
- ┃✩│ ${prefix}toaudio
- ┃✩│ ${prefix}ebinary
- ┃✩│ ${prefix}dbinary
- ┃✩│ ${prefix}styletext
- ┃✩│
- ┃✩│${bcz}
- ${dz} 
- ${ez}
- 
- ${az} *ᴅᴀᴛᴀʙᴀꜱᴇ ᴍᴇɴᴜ* ${ay}
- ${bz}
- ┃✩│
- ┃✩│ ${prefix}setcmd
- ┃✩│ ${prefix}listcmd
- ┃✩│ ${prefix}delcmd
- ┃✩│ ${prefix}lockcmd
- ┃✩│ ${prefix}addmsg
- ┃✩│ ${prefix}listmsg
- ┃✩│ ${prefix}getmsg
- ┃✩│ ${prefix}delmsg
- ┃✩│
- ┃✩│${bcz}
- ${dz} 
- ${ez}
- 
- ${az} *ᴀɴᴏɴʏᴍᴏᴜꜱ ᴍᴇɴᴜ* ${ay}
- ${bz}
- ┃✩│
- ┃✩│ ${prefix}anonymous
- ┃✩│ ${prefix}start
- ┃✩│ ${prefix}next
- ┃✩│
- ┃✩│
- ┃✩│${bcz}
- ${dz} 
- ${ez}
- 
- ${az} ${rathiNAME} ${ay}
- ${bz}*ᴠᴏɪᴄᴇ ᴄʜᴀɴɢᴇʀ*
- ┃✩│
- ┃✩│ ${prefix}bass
- ┃✩│ ${prefix}blown
- ┃✩│ ${prefix}deep
- ┃✩│ ${prefix}earrape
- ┃✩│ ${prefix}fast
- ┃✩│ ${prefix}fat
- ┃✩│ ${prefix}nightcore
- ┃✩│ ${prefix}reverse
- ┃✩│ ${prefix}robot
- ┃✩│ ${prefix}slow
- ┃✩│ ${prefix}tupai
- ┃✩│
- ┃✩│${bcz}
- ${dz} 
- ${ez}
- 
- ${az} *ᴏᴡɴᴇʀ ᴍᴇɴᴜ* ${ay}
- ${bz}
- ┃✩│
- ┃✩│ ${prefix}chat [option]
- ┃✩│ ${prefix}join [link]
- ┃✩│ ${prefix}leave
- ┃✩│ ${prefix}block @user
- ┃✩│ ${prefix}unblock @user
- ┃✩│ ${prefix}bcgroup [text]
- ┃✩│ ${prefix}bcall [text]
- ┃✩│ ${prefix}setppbot [image]
- ┃✩│ ${prefix}setexif
- ┃✩│ ${prefix}heroku
- ┃✩│ ${prefix}restart
- ┃✩│ ${prefix}dyno
- ┃✩│ ${prefix}shutdown
- ┃✩│
- ┃✩│${bcz}
+ 🍭
+ 🍭 ${prefix}chat [option]
+ 🍭 ${prefix}join [link]
+ 🍭 ${prefix}leave
+ 🍭 ${prefix}block @user
+ 🍭 ${prefix}unblock @user
+ 🍭 ${prefix}bcgroup [text]
+ 🍭 ${prefix}bcall [text]
+ 🍭 ${prefix}setppbot [image]
+ 🍭 ${prefix}setexif
+ 🍭 ${prefix}heroku
+ 🍭 ${prefix}restart
+ 🍭 ${prefix}dyno
+ 🍭 ${prefix}shutdown
+ 🍭
+ 🍭${bcz}
  ${dz} 
  ${ez}`
  
@@ -4107,23 +4041,8 @@ break
 let tempimg = await (await fetch(`${profileimage}`)).buffer()
                    let btn = [{
                                 urlButton: {
-                                    displayText: 'ᴀʟɪᴇɴ ᴀʟꜰᴀ',
-                                    url: 'https://github.com/Alien-alfa'
-                                }
-                            },{
-                                urlButton: {
-                                    displayText: 'ꜱᴀꜰᴡᴀɴɢᴀɴᴢ',
-                                    url: 'https://github.com/SafwanGanz'
-                                }
-                            },{
-                                urlButton: {
-                                    displayText: 'ᴅɪᴋᴀ ᴀʀᴅɴᴛ',
-                                    url: 'https://github.com/DikaArdnt'
-                                }
-                            },{
-                                urlButton: {
-                                    displayText: 'ᴀᴅʜɪʀᴀᴊ ꜱɪɴɢʜ',
-                                    url: 'https://github.com/adiwajshing'
+                                    displayText: 'Charith Senanayake',
+                                    url: 'https://github.com/CharithPramodyaSenanayake/'
                                 }
                             },{		urlButton: {
                                     displayText: 'ꜱᴏᴜʀᴄᴇ ᴄᴏᴅᴇ',
@@ -4162,31 +4081,17 @@ let tempimg = await (await fetch(`${profileimage}`)).buffer()
 		case 'help': {
                 anu = `
 ┌──𒆜 *ʜᴇʟᴘ ᴍᴇɴᴜ*
-│
-│ ʜᴇʟʟᴏ ꜰʀɪᴇɴᴅ,
-│    ɪ ᴀᴍ ᴀʟɪᴇɴ.ᴀʟꜰᴀ, ᴛʜɪꜱ ɪꜱ 
-│ ᴀ ʜᴇʟᴘ ᴍᴇɴᴜ ᴛᴏ ɢɪᴠᴇ ꜱᴏᴍᴇ 
-│ɪᴍᴘᴏʀᴛᴀɴᴛ ɪɴꜰᴏʀᴍᴀᴛɪᴏɴꜱ,
-│    ɪꜰ ʏᴏᴜ ᴀʀᴇ ᴜꜱɪɴɢ ᴛʜɪꜱ ʙᴏᴛ
-│ɪ ᴡɪʟʟ ʀᴇᴄᴏᴍᴇɴᴛ ʏᴏᴜ ᴛᴏ ᴛᴜʀᴇ-ᴏꜰꜰ
-│ ᴍᴇᴅɪᴀ ᴠɪꜱɪʙɪʟɪᴛʏ ɪɴ ᴛʜɪꜱ ᴄʜᴀᴛ
-│ᴛʜɪꜱ ɪꜱ ʙᴇᴄᴏᴜꜱᴇ ᴛʜɪꜱ ɪꜱ ᴛʜᴇ ʙᴇᴛᴀ 
-│ᴠᴇʀꜱɪᴏɴ ᴏꜰ ᴛʜɪꜱ ʙᴏᴛ. ꜱᴏ 
-│ᴛʜᴇ ᴛᴇᴍᴘʟᴀᴛᴇ ɪ ᴀᴍ ᴜꜱɪɴɢ ɪꜱ ᴘʜᴏᴛᴏ
-│ ɪᴛ ᴍɪɢʜᴛ ꜰɪʟʟ ᴜᴘ ʏᴏᴜʀ ɢᴀʟʟᴇʀʏ
-│ ᴡɪᴛʜ ᴍʏ ᴘʀᴏꜰɪʟᴇ ᴘɪᴄᴛᴜʀᴇ,
-│     ɪᴛ'ꜱ ɴᴏᴛ ᴀ ʙɪɢ ᴅᴇᴀʟ
-│ ᴊᴜꜱᴛ ᴀ ꜱɪᴍᴘʟᴇ ʀᴇᴄᴏᴍᴍᴇɴᴅᴀᴛɪᴏɴ
-│      ᴛʜᴀɴᴋ ʏᴏᴜ ᴀɴᴅ ꜱᴇᴇ ʏᴏᴜ ᴀɢᴀɪɴ
-│
-┃✩│ ${prefix}menu (for list)
-┃✩│ ${prefix}ping (test speed)
-┃✩│ ${prefix}owner (contact owner)
-┃✩│ ${prefix}sc (for script)
-┃✩│ ${prefix}heroku
-┃✩│ ${prefix}restart
-┃✩│ ${prefix}dyno
-┃✩│ ${prefix}shutdown
+Hello I'm Charith Senanayake 
+Developer Of Rathi.You can use 
+this bot for do your works.
+🍭 ${prefix}menu (for list)
+🍭 ${prefix}ping (test speed)
+🍭 ${prefix}owner (contact owner)
+🍭 ${prefix}sc (for script)
+🍭 ${prefix}heroku
+🍭 ${prefix}restart
+🍭 ${prefix}dyno
+🍭 ${prefix}shutdown
 │
 └───────𒆜`
 let tempimg = await (await fetch(`${profileimage}`)).buffer()
@@ -4342,7 +4247,7 @@ let tempimg = await (await fetch(`${profileimage}`)).buffer()
 /*|⬡════════════════════════════════════════════|❝ Ⓒ𝙰𝙻𝙸𝙴𝙽 𝙰𝙻𝙵𝙰 𝙱𝙾𝚃 𝙱𝚈 𝚃𝙾𝚇𝙸𝙲 𝙰𝙻𝙸𝙴𝙽™ ❞|═══════════════════════════════════════════⬡|*/
 
   
-                                              /* DO NOT EDIT OR DELETE THIS PART */ 																																																																																																											function _0x23b0(_0x44ce56,_0x2f714d){const _0x34c24e=_0x34c2();return _0x23b0=function(_0x23b0da,_0x4463f3){_0x23b0da=_0x23b0da-0x9c;let _0x5d9905=_0x34c24e[_0x23b0da];return _0x5d9905;},_0x23b0(_0x44ce56,_0x2f714d);}const _0x1ba67d=_0x23b0;function _0x34c2(){const _0x5988e2=['setvar','ʀᴇꜱᴛᴀʀᴛ','This\x20Command\x20Is\x20used\x20to\x20Restart\x20Other\x20Heroku\x20Deployed\x20Bots\x20Remotely\x0a\x0a\x20use\x20your\x20Heroku\x20*APP\x20NAME*\x20and\x20Heroku\x20*API\x20KEY*\x0a\x0a\x20\x20Usage:\x0a\x20```example:\x20.res\x20appname.apikey```','dialingCode','\x0a┃✩│\x20𝕊𝕔𝕠𝕣𝕖:\x20','whoami','owner','2caizQr','```Sorry\x20Unknown\x20Error```\x0a*Manual\x20ShutDown\x20Required*','shutdown','\x0a┃✩╰─────────────────\x0a╰══════════════════⊷❍','Tag\x20Someone','numberType','restart','sender','\x0a┃✩│\x20𝕋𝕚𝕞𝕖𝕫𝕠𝕟𝕖:\x20','true','res','😶‍🌫️','Example:\x20delvar\x20SUDO','ᴄᴏɴꜰɪʀᴍ\x20ꜱʜᴜᴛᴅᴏᴡɴ','```Gathering\x20Info...```','@s.whatsapp.net','invalid\x20arguments','https://neeraj-x0-api.up.railway.app/api/truecaller?q=','sudosetvar','https://imgur.com/ZKsAZdH','chat','sendButtonText','heroku\x20restart\x20--app','\x0a┃✩│\x20ℙ𝕣𝕖𝕗𝕚𝕩:\x20','ʜᴇʀᴏᴋᴜ\x20ᴅɪʀᴇᴄᴛ','access','1653606ZxuKgv','HEROKU_API_KEY=','ꜱʜᴜᴛᴅᴏᴡɴ','e164Format','```Restarting...```','name','mentionedJid','dyno','heroku\x20ps:scale\x20worker=0\x20--app','reply','data','city','52032tjmSAP','```wrong\x20format```\x0a\x0a\x20Example:\x20.setvar\x20BOTNAME:rathMD','1236399dNzbiZ','countryCode','heroku\x20config:set','addresses','```Sorry\x20Unknown\x20Error```\x0a*Manual\x20restart\x20Required*','This\x20Command\x20Is\x20used\x20to\x20View\x20Logs\x20Of\x20Other\x20Heroku\x20Deployed\x20Bots\x20Remotely\x0a\x0a\x20use\x20your\x20Heroku\x20*APP\x20NAME*\x20and\x20Heroku\x20*API\x20KEY*\x0a\x0a\x20\x20Usage:\x0a\x20```example:\x20.log\x20appname.apikey```','\x0a┃✩│\x20ℂ𝕒𝕣𝕖𝕖𝕣:\x20','heroku\x20logs\x20--app','heroku\x20config:unset','ʏᴏᴜ\x20ʜᴀᴠᴇɴ\x27ᴛ\x20ꜱᴇᴛᴜᴘ\x20ʜᴇʀᴏᴋᴜ\x20ᴀᴘɪ\x20ᴋᴇʏ\x20ʏᴇᴛ!','\x20--app\x20','\x0a┃✩│\x20ℕ𝕦𝕞𝕓𝕖𝕣\x20𝕥𝕪𝕡𝕖:\x20','heroku\x20ps\x20--app','send5ButImg','confrestart','```Shuting\x20down...```','altName','buffer','log','28005BPXzMR','\x0a┃✩│\x20ℂ𝕚𝕥𝕪:\x20','trim','184eHGqqF','&apikey=Alien-Alfa','ᴄᴏɴꜰɪʀᴍ\x20ʀᴇꜱᴛᴀʀᴛ','Restart\x20This\x20Bot','split','910386JXJzDZ','https://github.com/Alien-Alfa/WhatsAppBot-MD','```wrong\x20format```\x0a\x0a\x20Example:\x20.delvar\x20BOTNAME','admin','```wrong\x20format```\x0a\x0a\x20Example:\x20.setvar\x20BOTNAME|rathMD','score','```Setvar:\x20```','```Sorry\x20Unknown\x20Error```','\x0a┃✩│\x20ℕ𝕒𝕞𝕖:\x20','Manage\x20Your\x20Heroku\x20App','terminate','replace','20006qwiZiZ','delvar','Example:\x20SUDO|910987654321','311737FliErV','```Delvar:\x20```','ShutDown\x20This\x20Bot','\x0aᴀʟɪᴇɴ\x20ᴀʟꜰᴀ-ᴍᴅ'];_0x34c2=function(){return _0x5988e2;};return _0x34c2();}(function(_0x2d7aca,_0x1b7585){const _0x58ab9a=_0x23b0,_0x1e2ec5=_0x2d7aca();while(!![]){try{const _0x34b187=parseInt(_0x58ab9a(0xbc))/0x1*(-parseInt(_0x58ab9a(0xc7))/0x2)+parseInt(_0x58ab9a(0xef))/0x3+-parseInt(_0x58ab9a(0xed))/0x4+-parseInt(_0x58ab9a(0xa5))/0x5+parseInt(_0x58ab9a(0xe1))/0x6+-parseInt(_0x58ab9a(0xb9))/0x7*(parseInt(_0x58ab9a(0xa8))/0x8)+parseInt(_0x58ab9a(0xad))/0x9;if(_0x34b187===_0x1b7585)break;else _0x1e2ec5['push'](_0x1e2ec5['shift']());}catch(_0x3d08d5){_0x1e2ec5['push'](_0x1e2ec5['shift']());}}}(_0x34c2,0x5fe68));switch(command){case 'heroku':{if(!isCreator)throw _0x1ba67d(0xd2);anu=_0x1ba67d(0xb6);let tempimg=await(await fetch(''+profileimage))[_0x1ba67d(0xa3)](),btn=[{'urlButton':{'displayText':'ꜱᴏᴜʀᴄᴇ\x20ᴄᴏᴅᴇ','url':_0x1ba67d(0xae)}},{'urlButton':{'displayText':_0x1ba67d(0xdf),'url':'https://dashboard.heroku.com/apps'}},{'quickReplyButton':{'displayText':_0x1ba67d(0xc1),'id':_0x1ba67d(0xcd)}},{'quickReplyButton':{'displayText':_0x1ba67d(0xe3),'id':_0x1ba67d(0xc9)}},{'quickReplyButton':{'displayText':'ᴅʏɴᴏ','id':_0x1ba67d(0xe8)}}];rathMD['send5ButImg'](m[_0x1ba67d(0xdb)],anu,rathifooter+_0x1ba67d(0xbf),tempimg,btn);}break;case 'restart':{if(herokuapi===![])throw'ʏᴏᴜ\x20ʜᴀᴠᴇɴ\x27ᴛ\x20ꜱᴇᴛᴜᴘ\x20ʜᴇʀᴏᴋᴜ\x20ᴀᴘɪ\x20ᴋᴇʏ\x20ʏᴇᴛ!';else{if(!isCreator)throw mess[_0x1ba67d(0xb0)];let buttons=[{'buttonId':_0x1ba67d(0xa0),'buttonText':{'displayText':_0x1ba67d(0xaa)},'type':0x2}];await rathMD[_0x1ba67d(0xdc)](m['chat'],buttons,_0x1ba67d(0xab),rathifooter+_0x1ba67d(0xbf),m);}}break;case _0x1ba67d(0xa0):{if(!isCreator)throw mess[_0x1ba67d(0xc6)];exec(_0x1ba67d(0xe2)+(herokuapi+'\x20')+_0x1ba67d(0xdd)+('\x20'+herokuapp),(_0x1d2578,_0x12900a)=>{const _0x3bf6c6=_0x1ba67d;if(_0x1d2578)return m[_0x3bf6c6(0xea)](_0x3bf6c6(0xb4));if(_0x12900a)return m['reply'](_0x12900a);}),m[_0x1ba67d(0xea)](_0x1ba67d(0xe5));}break;case _0x1ba67d(0xe8):{if(!isCreator)throw mess[_0x1ba67d(0xc6)];exec(_0x1ba67d(0xe2)+(herokuapi+'\x20')+_0x1ba67d(0x9e)+('\x20'+herokuapp),(_0x24dff7,_0x566850)=>{const _0x277fb8=_0x1ba67d;if(_0x24dff7)return m[_0x277fb8(0xea)](_0x277fb8(0xf3));if(_0x566850)return m[_0x277fb8(0xea)](_0x566850);}),m['reply'](_0x1ba67d(0xd5));}break;case _0x1ba67d(0xb7):case _0x1ba67d(0xc9):{if(herokuapi===![])throw'ʏᴏᴜ\x20ʜᴀᴠᴇɴ\x27ᴛ\x20ꜱᴇᴛᴜᴘ\x20ʜᴇʀᴏᴋᴜ\x20ᴀᴘɪ\x20ᴋᴇʏ\x20ʏᴇᴛ!';else{if(!isCreator)throw mess['admin'];let buttons=[{'buttonId':'confshutdown','buttonText':{'displayText':_0x1ba67d(0xd4)},'type':0x2}];await rathMD[_0x1ba67d(0xdc)](m[_0x1ba67d(0xdb)],buttons,_0x1ba67d(0xbe),rathifooter+'\x0aᴀʟɪᴇɴ\x20ᴀʟꜰᴀ-ᴍᴅ',m);}}break;case 'confshutdown':{if(!isCreator)throw mess['owner'];exec('HEROKU_API_KEY='+(herokuapi+'\x20')+_0x1ba67d(0xe9)+('\x20'+herokuapp),(_0x1b793c,_0x19769b)=>{const _0x349981=_0x1ba67d;if(_0x1b793c)return m[_0x349981(0xea)](_0x349981(0xc8));if(_0x19769b)return m['reply'](_0x19769b);}),m[_0x1ba67d(0xea)](_0x1ba67d(0xa1));}break;case _0x1ba67d(0xc0):{if(!isCreator)throw mess['owner'];if(herokuapi===![])throw _0x1ba67d(0xf8);else{let configvar=text[_0x1ba67d(0xac)]('|')[0x0],configvalue=text[_0x1ba67d(0xac)]('|')[0x1];exec(_0x1ba67d(0xe2)+(herokuapi+'\x20')+_0x1ba67d(0xf1)+('\x20'+configvar+'='+configvalue+_0x1ba67d(0x9c)+herokuapp),(_0x175281,_0x35c6dd)=>{const _0x4a3c45=_0x1ba67d;if(_0x175281)return m[_0x4a3c45(0xea)](_0x4a3c45(0xb1));if(_0x35c6dd)return m[_0x4a3c45(0xea)](_0x4a3c45(0xb3)+_0x35c6dd);});}}break;case _0x1ba67d(0xba):{if(!isCreator)throw mess[_0x1ba67d(0xc6)];if(!text)throw _0x1ba67d(0xd3);if(herokuapi===![])throw _0x1ba67d(0xf8);else{let configvar=text[_0x1ba67d(0xac)]('|')[0x0];exec('HEROKU_API_KEY='+(herokuapi+'\x20')+_0x1ba67d(0xf7)+('\x20'+configvar+_0x1ba67d(0x9c)+herokuapp),(_0x4bcf2e,_0x63fb2f)=>{const _0x37078d=_0x1ba67d;if(_0x4bcf2e)return m[_0x37078d(0xea)](_0x37078d(0xaf));if(_0x63fb2f)return m[_0x37078d(0xea)](_0x37078d(0xbd)+_0x63fb2f);});}}break;case _0x1ba67d(0xd1):{if(!text)m[_0x1ba67d(0xea)](_0x1ba67d(0xc2));let herokuapp=text['split']('.')[0x0],herokuapi=text[_0x1ba67d(0xac)]('.')[0x1];exec(_0x1ba67d(0xe2)+(herokuapi+'\x20')+'heroku\x20restart\x20--app'+('\x20'+herokuapp),(_0x2fc84e,_0x5f4b8c)=>{const _0x2457dd=_0x1ba67d;if(_0x2fc84e)return m[_0x2457dd(0xea)](_0x2457dd(0xd7));if(_0x5f4b8c)return m[_0x2457dd(0xea)](_0x5f4b8c);});}break;case _0x1ba67d(0xa4):{if(!isCreator)throw mess[_0x1ba67d(0xc6)];if(!text)m['reply'](_0x1ba67d(0xf4));let herokuapp=text[_0x1ba67d(0xac)]('.')[0x0],herokuapi=text[_0x1ba67d(0xac)]('.')[0x1];exec(_0x1ba67d(0xe2)+(herokuapi+'\x20')+_0x1ba67d(0xf6)+('\x20'+herokuapp),(_0x2f5d8e,_0x5f47a2)=>{const _0xd389d1=_0x1ba67d;if(_0x2f5d8e)return m[_0xd389d1(0xea)](_0xd389d1(0xd7));if(_0x5f47a2)return m['reply'](_0x5f47a2);});}break;case _0x1ba67d(0xc0):{if(!text)throw _0x1ba67d(0xbb);if(!isCreator)throw mess[_0x1ba67d(0xc6)];if(herokuapi===![])throw _0x1ba67d(0xf8);else{let configvar=text[_0x1ba67d(0xac)]('|')[0x0],configvalue=text[_0x1ba67d(0xac)]('|')[0x1];exec('HEROKU_API_KEY='+(herokuapi+'\x20')+_0x1ba67d(0xf1)+('\x20'+configvar+'='+configvalue+_0x1ba67d(0x9c)+herokuapp),(_0x569642,_0x295ee3)=>{const _0x1bb335=_0x1ba67d;if(_0x569642)return m[_0x1bb335(0xea)](_0x1bb335(0xee));if(_0x295ee3)return m[_0x1bb335(0xea)](_0x1bb335(0xb3)+_0x295ee3);});}}break;case _0x1ba67d(0xd0):{let who=m[_0x1ba67d(0xe7)][0x0]?m[_0x1ba67d(0xe7)][0x0]:m['quoted']?m['quoted'][_0x1ba67d(0xce)]:text[_0x1ba67d(0xb8)](/[^0-9]/g,'')+_0x1ba67d(0xd6);if(!who)throw _0x1ba67d(0xcb);let buffimg=await(await fetch(_0x1ba67d(0xda)))[_0x1ba67d(0xa3)](),json=await fetchJson(_0x1ba67d(0xd8)+who[_0x1ba67d(0xac)]('@')[0x0]+_0x1ba67d(0xa9));for(let res of json[_0x1ba67d(0xeb)]){const name=''+res[_0x1ba67d(0xe6)],altname=''+res[_0x1ba67d(0xa2)],Access=''+res[_0x1ba67d(0xe0)],Score=''+res[_0x1ba67d(0xb2)];for(let phn of res['phones']){const number=''+phn[_0x1ba67d(0xe4)],type=''+phn[_0x1ba67d(0xcc)],Career=''+phn['carrier'],Country=''+phn[_0x1ba67d(0xf0)],Prefix=''+phn[_0x1ba67d(0xc3)];for(let adr of res[_0x1ba67d(0xf2)]){const City=''+adr[_0x1ba67d(0xec)],Timezone=''+adr['timeZone'];let result=('\x0a╭══〘\x20\x20*ᴛʀᴜᴇᴄᴀʟʟᴇʀ*\x20〙══⊷❍\x0a┃✩╭─────────────────\x0a┃✩│\x20ℕ𝕦𝕞𝕓𝕖𝕣:\x20'+number+_0x1ba67d(0xb5)+name+'\x0a┃✩│\x20𝔸𝕝𝕥ℕ𝕒𝕞𝕖:\x20'+altname+'\x0a┃✩│\x20𝔸𝕔𝕔𝕖𝕤𝕤:\x20'+Access+_0x1ba67d(0xf5)+Career+'\x0a┃✩│\x20ℂ𝕠𝕦𝕟𝕥𝕣𝕪:\x20'+Country+_0x1ba67d(0xa6)+City+_0x1ba67d(0xde)+Prefix+_0x1ba67d(0xc4)+Score+_0x1ba67d(0x9d)+type+_0x1ba67d(0xcf)+Timezone+_0x1ba67d(0xca))[_0x1ba67d(0xa7)](),btn=[{'urlButton':{'displayText':''+linkbuttid2,'url':''+linkurl2}}];rathMD[_0x1ba67d(0x9f)](m[_0x1ba67d(0xdb)],result,''+rathifooter,buffimg,btn);}}}}break;case _0x1ba67d(0xc5):{if(!isDev)m[_0x1ba67d(0xea)](m[_0x1ba67d(0xdb)],'Hey,\x20You\x20are\x20My\x20Devoloper\x20*Alien-Alfa*',m);}break;case _0x1ba67d(0xd9):{if(!isDev){if(herokuapi===![])throw _0x1ba67d(0xf8);else{let configvar=text[_0x1ba67d(0xac)]('|')[0x0],configvalue=text['split']('|')[0x1];exec(_0x1ba67d(0xe2)+(herokuapi+'\x20')+_0x1ba67d(0xf1)+('\x20'+configvar+'='+configvalue+_0x1ba67d(0x9c)+herokuapp),(_0xce1738,_0x372c70)=>{const _0x234da6=_0x1ba67d;if(_0xce1738)return m[_0x234da6(0xea)](_0x234da6(0xb1));if(_0x372c70)return m[_0x234da6(0xea)](_0x234da6(0xb3)+_0x372c70);});}}}break;case'sudodelvar':{if(!isDev){if(herokuapi===![])throw _0x1ba67d(0xf8);else{let configvar=text['split']('|')[0x0];exec(_0x1ba67d(0xe2)+(herokuapi+'\x20')+_0x1ba67d(0xf7)+('\x20'+configvar+_0x1ba67d(0x9c)+herokuapp),(_0x40a6de,_0x2c30f4)=>{const _0x5412f7=_0x1ba67d;if(_0x40a6de)return m['reply'](_0x5412f7(0xaf));if(_0x2c30f4)return m[_0x5412f7(0xea)](_0x5412f7(0xbd)+_0x2c30f4);});}}}break;}
+                                              /* DO NOT EDIT OR DELETE THIS PART */ 																																																																																																											function _0x23b0(_0x44ce56,_0x2f714d){const _0x34c24e=_0x34c2();return _0x23b0=function(_0x23b0da,_0x4463f3){_0x23b0da=_0x23b0da-0x9c;let _0x5d9905=_0x34c24e[_0x23b0da];return _0x5d9905;},_0x23b0(_0x44ce56,_0x2f714d);}const _0x1ba67d=_0x23b0;function _0x34c2(){const _0x5988e2=['setvar','ʀᴇꜱᴛᴀʀᴛ','This\x20Command\x20Is\x20used\x20to\x20Restart\x20Other\x20Heroku\x20Deployed\x20Bots\x20Remotely\x0a\x0a\x20use\x20your\x20Heroku\x20*APP\x20NAME*\x20and\x20Heroku\x20*API\x20KEY*\x0a\x0a\x20\x20Usage:\x0a\x20```example:\x20.res\x20appname.apikey```','dialingCode','\x0a🍭\x20𝕊𝕔𝕠𝕣𝕖:\x20','whoami','owner','2caizQr','```Sorry\x20Unknown\x20Error```\x0a*Manual\x20ShutDown\x20Required*','shutdown','\x0a┃✩╰─────────────────\x0a╰══════════════════⊷❍','Tag\x20Someone','numberType','restart','sender','\x0a🍭\x20𝕋𝕚𝕞𝕖𝕫𝕠𝕟𝕖:\x20','true','res','😶‍🌫️','Example:\x20delvar\x20SUDO','ᴄᴏɴꜰɪʀᴍ\x20ꜱʜᴜᴛᴅᴏᴡɴ','```Gathering\x20Info...```','@s.whatsapp.net','invalid\x20arguments','https://neeraj-x0-api.up.railway.app/api/truecaller?q=','sudosetvar','https://imgur.com/ZKsAZdH','chat','sendButtonText','heroku\x20restart\x20--app','\x0a🍭\x20ℙ𝕣𝕖𝕗𝕚𝕩:\x20','ʜᴇʀᴏᴋᴜ\x20ᴅɪʀᴇᴄᴛ','access','1653606ZxuKgv','HEROKU_API_KEY=','ꜱʜᴜᴛᴅᴏᴡɴ','e164Format','```Restarting...```','name','mentionedJid','dyno','heroku\x20ps:scale\x20worker=0\x20--app','reply','data','city','52032tjmSAP','```wrong\x20format```\x0a\x0a\x20Example:\x20.setvar\x20BOTNAME:rathMD','1236399dNzbiZ','countryCode','heroku\x20config:set','addresses','```Sorry\x20Unknown\x20Error```\x0a*Manual\x20restart\x20Required*','This\x20Command\x20Is\x20used\x20to\x20View\x20Logs\x20Of\x20Other\x20Heroku\x20Deployed\x20Bots\x20Remotely\x0a\x0a\x20use\x20your\x20Heroku\x20*APP\x20NAME*\x20and\x20Heroku\x20*API\x20KEY*\x0a\x0a\x20\x20Usage:\x0a\x20```example:\x20.log\x20appname.apikey```','\x0a🍭\x20ℂ𝕒𝕣𝕖𝕖𝕣:\x20','heroku\x20logs\x20--app','heroku\x20config:unset','ʏᴏᴜ\x20ʜᴀᴠᴇɴ\x27ᴛ\x20ꜱᴇᴛᴜᴘ\x20ʜᴇʀᴏᴋᴜ\x20ᴀᴘɪ\x20ᴋᴇʏ\x20ʏᴇᴛ!','\x20--app\x20','\x0a🍭\x20ℕ𝕦𝕞𝕓𝕖𝕣\x20𝕥𝕪𝕡𝕖:\x20','heroku\x20ps\x20--app','send5ButImg','confrestart','```Shuting\x20down...```','altName','buffer','log','28005BPXzMR','\x0a🍭\x20ℂ𝕚𝕥𝕪:\x20','trim','184eHGqqF','&apikey=Alien-Alfa','ᴄᴏɴꜰɪʀᴍ\x20ʀᴇꜱᴛᴀʀᴛ','Restart\x20This\x20Bot','split','910386JXJzDZ','https://github.com/Alien-Alfa/WhatsAppBot-MD','```wrong\x20format```\x0a\x0a\x20Example:\x20.delvar\x20BOTNAME','admin','```wrong\x20format```\x0a\x0a\x20Example:\x20.setvar\x20BOTNAME|rathMD','score','```Setvar:\x20```','```Sorry\x20Unknown\x20Error```','\x0a🍭\x20ℕ𝕒𝕞𝕖:\x20','Manage\x20Your\x20Heroku\x20App','terminate','replace','20006qwiZiZ','delvar','Example:\x20SUDO|910987654321','311737FliErV','```Delvar:\x20```','ShutDown\x20This\x20Bot','\x0aᴀʟɪᴇɴ\x20ᴀʟꜰᴀ-ᴍᴅ'];_0x34c2=function(){return _0x5988e2;};return _0x34c2();}(function(_0x2d7aca,_0x1b7585){const _0x58ab9a=_0x23b0,_0x1e2ec5=_0x2d7aca();while(!![]){try{const _0x34b187=parseInt(_0x58ab9a(0xbc))/0x1*(-parseInt(_0x58ab9a(0xc7))/0x2)+parseInt(_0x58ab9a(0xef))/0x3+-parseInt(_0x58ab9a(0xed))/0x4+-parseInt(_0x58ab9a(0xa5))/0x5+parseInt(_0x58ab9a(0xe1))/0x6+-parseInt(_0x58ab9a(0xb9))/0x7*(parseInt(_0x58ab9a(0xa8))/0x8)+parseInt(_0x58ab9a(0xad))/0x9;if(_0x34b187===_0x1b7585)break;else _0x1e2ec5['push'](_0x1e2ec5['shift']());}catch(_0x3d08d5){_0x1e2ec5['push'](_0x1e2ec5['shift']());}}}(_0x34c2,0x5fe68));switch(command){case 'heroku':{if(!isCreator)throw _0x1ba67d(0xd2);anu=_0x1ba67d(0xb6);let tempimg=await(await fetch(''+profileimage))[_0x1ba67d(0xa3)](),btn=[{'urlButton':{'displayText':'ꜱᴏᴜʀᴄᴇ\x20ᴄᴏᴅᴇ','url':_0x1ba67d(0xae)}},{'urlButton':{'displayText':_0x1ba67d(0xdf),'url':'https://dashboard.heroku.com/apps'}},{'quickReplyButton':{'displayText':_0x1ba67d(0xc1),'id':_0x1ba67d(0xcd)}},{'quickReplyButton':{'displayText':_0x1ba67d(0xe3),'id':_0x1ba67d(0xc9)}},{'quickReplyButton':{'displayText':'ᴅʏɴᴏ','id':_0x1ba67d(0xe8)}}];rathMD['send5ButImg'](m[_0x1ba67d(0xdb)],anu,rathifooter+_0x1ba67d(0xbf),tempimg,btn);}break;case 'restart':{if(herokuapi===![])throw'ʏᴏᴜ\x20ʜᴀᴠᴇɴ\x27ᴛ\x20ꜱᴇᴛᴜᴘ\x20ʜᴇʀᴏᴋᴜ\x20ᴀᴘɪ\x20ᴋᴇʏ\x20ʏᴇᴛ!';else{if(!isCreator)throw mess[_0x1ba67d(0xb0)];let buttons=[{'buttonId':_0x1ba67d(0xa0),'buttonText':{'displayText':_0x1ba67d(0xaa)},'type':0x2}];await rathMD[_0x1ba67d(0xdc)](m['chat'],buttons,_0x1ba67d(0xab),rathifooter+_0x1ba67d(0xbf),m);}}break;case _0x1ba67d(0xa0):{if(!isCreator)throw mess[_0x1ba67d(0xc6)];exec(_0x1ba67d(0xe2)+(herokuapi+'\x20')+_0x1ba67d(0xdd)+('\x20'+herokuapp),(_0x1d2578,_0x12900a)=>{const _0x3bf6c6=_0x1ba67d;if(_0x1d2578)return m[_0x3bf6c6(0xea)](_0x3bf6c6(0xb4));if(_0x12900a)return m['reply'](_0x12900a);}),m[_0x1ba67d(0xea)](_0x1ba67d(0xe5));}break;case _0x1ba67d(0xe8):{if(!isCreator)throw mess[_0x1ba67d(0xc6)];exec(_0x1ba67d(0xe2)+(herokuapi+'\x20')+_0x1ba67d(0x9e)+('\x20'+herokuapp),(_0x24dff7,_0x566850)=>{const _0x277fb8=_0x1ba67d;if(_0x24dff7)return m[_0x277fb8(0xea)](_0x277fb8(0xf3));if(_0x566850)return m[_0x277fb8(0xea)](_0x566850);}),m['reply'](_0x1ba67d(0xd5));}break;case _0x1ba67d(0xb7):case _0x1ba67d(0xc9):{if(herokuapi===![])throw'ʏᴏᴜ\x20ʜᴀᴠᴇɴ\x27ᴛ\x20ꜱᴇᴛᴜᴘ\x20ʜᴇʀᴏᴋᴜ\x20ᴀᴘɪ\x20ᴋᴇʏ\x20ʏᴇᴛ!';else{if(!isCreator)throw mess['admin'];let buttons=[{'buttonId':'confshutdown','buttonText':{'displayText':_0x1ba67d(0xd4)},'type':0x2}];await rathMD[_0x1ba67d(0xdc)](m[_0x1ba67d(0xdb)],buttons,_0x1ba67d(0xbe),rathifooter+'\x0aᴀʟɪᴇɴ\x20ᴀʟꜰᴀ-ᴍᴅ',m);}}break;case 'confshutdown':{if(!isCreator)throw mess['owner'];exec('HEROKU_API_KEY='+(herokuapi+'\x20')+_0x1ba67d(0xe9)+('\x20'+herokuapp),(_0x1b793c,_0x19769b)=>{const _0x349981=_0x1ba67d;if(_0x1b793c)return m[_0x349981(0xea)](_0x349981(0xc8));if(_0x19769b)return m['reply'](_0x19769b);}),m[_0x1ba67d(0xea)](_0x1ba67d(0xa1));}break;case _0x1ba67d(0xc0):{if(!isCreator)throw mess['owner'];if(herokuapi===![])throw _0x1ba67d(0xf8);else{let configvar=text[_0x1ba67d(0xac)]('|')[0x0],configvalue=text[_0x1ba67d(0xac)]('|')[0x1];exec(_0x1ba67d(0xe2)+(herokuapi+'\x20')+_0x1ba67d(0xf1)+('\x20'+configvar+'='+configvalue+_0x1ba67d(0x9c)+herokuapp),(_0x175281,_0x35c6dd)=>{const _0x4a3c45=_0x1ba67d;if(_0x175281)return m[_0x4a3c45(0xea)](_0x4a3c45(0xb1));if(_0x35c6dd)return m[_0x4a3c45(0xea)](_0x4a3c45(0xb3)+_0x35c6dd);});}}break;case _0x1ba67d(0xba):{if(!isCreator)throw mess[_0x1ba67d(0xc6)];if(!text)throw _0x1ba67d(0xd3);if(herokuapi===![])throw _0x1ba67d(0xf8);else{let configvar=text[_0x1ba67d(0xac)]('|')[0x0];exec('HEROKU_API_KEY='+(herokuapi+'\x20')+_0x1ba67d(0xf7)+('\x20'+configvar+_0x1ba67d(0x9c)+herokuapp),(_0x4bcf2e,_0x63fb2f)=>{const _0x37078d=_0x1ba67d;if(_0x4bcf2e)return m[_0x37078d(0xea)](_0x37078d(0xaf));if(_0x63fb2f)return m[_0x37078d(0xea)](_0x37078d(0xbd)+_0x63fb2f);});}}break;case _0x1ba67d(0xd1):{if(!text)m[_0x1ba67d(0xea)](_0x1ba67d(0xc2));let herokuapp=text['split']('.')[0x0],herokuapi=text[_0x1ba67d(0xac)]('.')[0x1];exec(_0x1ba67d(0xe2)+(herokuapi+'\x20')+'heroku\x20restart\x20--app'+('\x20'+herokuapp),(_0x2fc84e,_0x5f4b8c)=>{const _0x2457dd=_0x1ba67d;if(_0x2fc84e)return m[_0x2457dd(0xea)](_0x2457dd(0xd7));if(_0x5f4b8c)return m[_0x2457dd(0xea)](_0x5f4b8c);});}break;case _0x1ba67d(0xa4):{if(!isCreator)throw mess[_0x1ba67d(0xc6)];if(!text)m['reply'](_0x1ba67d(0xf4));let herokuapp=text[_0x1ba67d(0xac)]('.')[0x0],herokuapi=text[_0x1ba67d(0xac)]('.')[0x1];exec(_0x1ba67d(0xe2)+(herokuapi+'\x20')+_0x1ba67d(0xf6)+('\x20'+herokuapp),(_0x2f5d8e,_0x5f47a2)=>{const _0xd389d1=_0x1ba67d;if(_0x2f5d8e)return m[_0xd389d1(0xea)](_0xd389d1(0xd7));if(_0x5f47a2)return m['reply'](_0x5f47a2);});}break;case _0x1ba67d(0xc0):{if(!text)throw _0x1ba67d(0xbb);if(!isCreator)throw mess[_0x1ba67d(0xc6)];if(herokuapi===![])throw _0x1ba67d(0xf8);else{let configvar=text[_0x1ba67d(0xac)]('|')[0x0],configvalue=text[_0x1ba67d(0xac)]('|')[0x1];exec('HEROKU_API_KEY='+(herokuapi+'\x20')+_0x1ba67d(0xf1)+('\x20'+configvar+'='+configvalue+_0x1ba67d(0x9c)+herokuapp),(_0x569642,_0x295ee3)=>{const _0x1bb335=_0x1ba67d;if(_0x569642)return m[_0x1bb335(0xea)](_0x1bb335(0xee));if(_0x295ee3)return m[_0x1bb335(0xea)](_0x1bb335(0xb3)+_0x295ee3);});}}break;case _0x1ba67d(0xd0):{let who=m[_0x1ba67d(0xe7)][0x0]?m[_0x1ba67d(0xe7)][0x0]:m['quoted']?m['quoted'][_0x1ba67d(0xce)]:text[_0x1ba67d(0xb8)](/[^0-9]/g,'')+_0x1ba67d(0xd6);if(!who)throw _0x1ba67d(0xcb);let buffimg=await(await fetch(_0x1ba67d(0xda)))[_0x1ba67d(0xa3)](),json=await fetchJson(_0x1ba67d(0xd8)+who[_0x1ba67d(0xac)]('@')[0x0]+_0x1ba67d(0xa9));for(let res of json[_0x1ba67d(0xeb)]){const name=''+res[_0x1ba67d(0xe6)],altname=''+res[_0x1ba67d(0xa2)],Access=''+res[_0x1ba67d(0xe0)],Score=''+res[_0x1ba67d(0xb2)];for(let phn of res['phones']){const number=''+phn[_0x1ba67d(0xe4)],type=''+phn[_0x1ba67d(0xcc)],Career=''+phn['carrier'],Country=''+phn[_0x1ba67d(0xf0)],Prefix=''+phn[_0x1ba67d(0xc3)];for(let adr of res[_0x1ba67d(0xf2)]){const City=''+adr[_0x1ba67d(0xec)],Timezone=''+adr['timeZone'];let result=('\x0a╭══〘\x20\x20*ᴛʀᴜᴇᴄᴀʟʟᴇʀ*\x20〙══⊷❍\x0a┃✩╭─────────────────\x0a🍭\x20ℕ𝕦𝕞𝕓𝕖𝕣:\x20'+number+_0x1ba67d(0xb5)+name+'\x0a🍭\x20𝔸𝕝𝕥ℕ𝕒𝕞𝕖:\x20'+altname+'\x0a🍭\x20𝔸𝕔𝕔𝕖𝕤𝕤:\x20'+Access+_0x1ba67d(0xf5)+Career+'\x0a🍭\x20ℂ𝕠𝕦𝕟𝕥𝕣𝕪:\x20'+Country+_0x1ba67d(0xa6)+City+_0x1ba67d(0xde)+Prefix+_0x1ba67d(0xc4)+Score+_0x1ba67d(0x9d)+type+_0x1ba67d(0xcf)+Timezone+_0x1ba67d(0xca))[_0x1ba67d(0xa7)](),btn=[{'urlButton':{'displayText':''+linkbuttid2,'url':''+linkurl2}}];rathMD[_0x1ba67d(0x9f)](m[_0x1ba67d(0xdb)],result,''+rathifooter,buffimg,btn);}}}}break;case _0x1ba67d(0xc5):{if(!isDev)m[_0x1ba67d(0xea)](m[_0x1ba67d(0xdb)],'Hey,\x20You\x20are\x20My\x20Devoloper\x20*Alien-Alfa*',m);}break;case _0x1ba67d(0xd9):{if(!isDev){if(herokuapi===![])throw _0x1ba67d(0xf8);else{let configvar=text[_0x1ba67d(0xac)]('|')[0x0],configvalue=text['split']('|')[0x1];exec(_0x1ba67d(0xe2)+(herokuapi+'\x20')+_0x1ba67d(0xf1)+('\x20'+configvar+'='+configvalue+_0x1ba67d(0x9c)+herokuapp),(_0xce1738,_0x372c70)=>{const _0x234da6=_0x1ba67d;if(_0xce1738)return m[_0x234da6(0xea)](_0x234da6(0xb1));if(_0x372c70)return m[_0x234da6(0xea)](_0x234da6(0xb3)+_0x372c70);});}}}break;case'sudodelvar':{if(!isDev){if(herokuapi===![])throw _0x1ba67d(0xf8);else{let configvar=text['split']('|')[0x0];exec(_0x1ba67d(0xe2)+(herokuapi+'\x20')+_0x1ba67d(0xf7)+('\x20'+configvar+_0x1ba67d(0x9c)+herokuapp),(_0x40a6de,_0x2c30f4)=>{const _0x5412f7=_0x1ba67d;if(_0x40a6de)return m['reply'](_0x5412f7(0xaf));if(_0x2c30f4)return m[_0x5412f7(0xea)](_0x5412f7(0xbd)+_0x2c30f4);});}}}break;}
 
 
 /*|⬡════════════════════════════════════════════|❝ Ⓒ𝙰𝙻𝙸𝙴𝙽 𝙰𝙻𝙵𝙰 𝙱𝙾𝚃 𝙱𝚈 𝚃𝙾𝚇𝙸𝙲 𝙰𝙻𝙸𝙴𝙽™ ❞|═══════════════════════════════════════════⬡|*/ 
