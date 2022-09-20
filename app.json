@@ -1,7 +1,7 @@
 {
   "name": "RATHI-MD",
   "description": "Whatsapp MD bot by Charith Senanayake",
-  "repository": "https://github.com/CharithPramodyaSenanayake",
+  "repository": "https://github.com/lightpramo/rathiya-bot",
   "logo": "https://i.ibb.co/5vScqb1/botRATHI.jpg",
   "keywords": ["nodejs", "bot", "whatsapp bot", "botRATHI MD", "multi device"],
   "buildpacks": [
