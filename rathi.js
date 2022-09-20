@@ -3184,7 +3184,7 @@ var fontchange = `${az} ${rathiNAME} ${ay}
    "description": `Display A List Of Features To Create Logo`,
    "rowId": `list logomenu`
    }],
-   "title": "🌀 🇱​​​​​🇴​​​​​🇬​​​​​🇴 🌀​​​​​"
+   "title": "🌀 🇱​​​​​🇴​​​​​🇬​​​​​🇴 🌀"
    },
    {
    "rows": [{
@@ -3225,6 +3225,14 @@ var fontchange = `${az} ${rathiNAME} ${ay}
    "rowId": `list mainmenu`
    }],
    "title": "🚪 ᴍᴀɪɴ 🚪"
+   },
+   {
+   "rows": [{
+   "title": `${listicon} ᴛʜᴀɴᴋs`,
+   "description": `Display A List Of credits`,
+   "rowId": `list tqto`
+   }],
+   "title": "🫰 ᴛʜᴀɴᴋs 🫰"
    },
    {
    "rows": [{
