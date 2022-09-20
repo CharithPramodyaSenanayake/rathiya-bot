@@ -1,0 +1,27 @@
+{
+  "name": "RATHI-MD",
+  "description": "Whatsapp MD bot by Charith Senanayake",
+  "repository": "https://github.com/CharithPramodyaSenanayake",
+  "logo": "https://i.ibb.co/5vScqb1/botRATHI.jpg",
+  "keywords": ["nodejs", "bot", "whatsapp bot", "botRATHI MD", "multi device"],
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    },
+    {
+      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
+    },
+    {
+      "url": "https://github.com/clhuang/heroku-buildpack-webp-binaries.git"
+    },
+    {
+      "url": "https://github.com/DuckyTeam/heroku-buildpack-imagemagick"
+    }
+  ],
+   "formation": {
+        "worker": {
+            "quantity": 1,
+            "size": "free"
+        }
+    }
+}
