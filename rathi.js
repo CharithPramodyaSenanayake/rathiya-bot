@@ -890,9 +890,9 @@ ${arr.slice(6).join('')}
 				
 				if (!isCreator) throw mess.owner
 				
-				let sessionf = fs.readFileSync('./session.alfa.json')
+				let sessionf = fs.readFileSync('./session.rathi.json')
 				
-            rathMD.sendMessage(m.chat, {document: sessionf, mimetype: 'application/json', fileName: `session.alfa.json`})
+            rathMD.sendMessage(m.chat, {document: sessionf, mimetype: 'application/json', fileName: `session.rathi.json`})
             
             
             }
