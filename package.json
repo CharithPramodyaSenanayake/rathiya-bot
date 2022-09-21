@@ -23,7 +23,7 @@
   "author": "Alien-Alfa.",
   "license": "MIT",
   "dependencies": {
-    "@adiwajshing/baileys": "^4.1.0",
+    "@adiwajshing/baileys": "^5.0.0",
     "@adiwajshing/keyed-db": "^0.2.4",
     "@vitalets/google-translate-api": "^4.0.0",
     "awesome-phonenumber": "^2.64.0",
